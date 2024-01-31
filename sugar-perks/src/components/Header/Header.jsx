@@ -1,11 +1,11 @@
 import './Header.css'
 
-function Header() {
+function Header(props) {
 
   return (
     <>
       <div id="header">
-        <div id="header-dropdown">
+        <div id="header-dropdown" onClick={() => props.changeDropdownVisible(!props.currentDropdownVisible)}>
           <i class="fa-solid fa-bars"></i>
         </div>
         <div id="header-title">

@@ -1,0 +1,30 @@
+#dropdown {
+    position: sticky;
+    display: flex;
+    flex-direction: column;
+    width: 14.5rem;
+    height: fit-content;
+    text-align: center;
+    border-right: 1.5px solid #d4d4d4;
+    border-bottom: 1.5px solid #d4d4d4;
+    border-bottom-right-radius: 7.5px;
+
+    ul {
+        display: flex;
+        flex-direction: column;
+        margin: 1rem 0 0.9rem;
+
+        li {
+            width: 100%;
+            margin: .2rem 0 .2rem;
+            cursor: pointer;
+
+            :hover {
+                background: linear-gradient(120deg, #00a9ff, #ff3ee5);
+                background-clip: text;
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+        }
+    }
+}
