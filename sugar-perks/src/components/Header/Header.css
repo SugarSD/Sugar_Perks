@@ -17,8 +17,9 @@
 
 
 #header {
-    position: sticky;
+    position: static;
     display: flex;
+    text-wrap: nowrap;
     width: 100%;
     height: auto;
     border-bottom: 1px solid #d4d4d4;

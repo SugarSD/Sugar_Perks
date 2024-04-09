@@ -6,7 +6,7 @@ function Header(props) {
     <>
       <div id="header">
         <div id="header-dropdown" onClick={() => props.changeDropdownVisible(!props.currentDropdownVisible)}>
-          <i class="fa-solid fa-bars"></i>
+          <i className="fa-solid fa-bars"></i>
         </div>
         <div id="header-title">
           <h1>Sugar <span>Perks</span></h1>

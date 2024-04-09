@@ -1,13 +1,15 @@
 #dropdown {
-    position: sticky;
+    position: fixed;
     display: flex;
     flex-direction: column;
     width: 14.5rem;
     height: fit-content;
+    background-color: #1B1A18;
     text-align: center;
     border-right: 1.5px solid #d4d4d4;
     border-bottom: 1.5px solid #d4d4d4;
     border-bottom-right-radius: 7.5px;
+    z-index: 2;
 
     ul {
         display: flex;
@@ -19,11 +21,17 @@
             margin: .2rem 0 .2rem;
             cursor: pointer;
 
-            :hover {
-                background: linear-gradient(120deg, #00a9ff, #ff3ee5);
-                background-clip: text;
-                -webkit-background-clip: text;
-                -webkit-text-fill-color: transparent;
+            .route-link {
+                text-decoration: none;
+                color:#d4d4d4;
+
+
+                :hover {
+                    background: linear-gradient(120deg, #00a9ff, #ff3ee5);
+                    background-clip: text;
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                }
             }
         }
     }

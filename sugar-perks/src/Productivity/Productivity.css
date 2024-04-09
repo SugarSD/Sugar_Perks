@@ -1,0 +1,10 @@
+#productivity {
+  position: relative;
+  width: 100%;
+  overflow-y: hidden;
+  height: auto;
+}
+
+h1 {
+  margin: 0 2.5%;
+}
