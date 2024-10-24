@@ -19,6 +19,7 @@
 #header {
     position: static;
     display: flex;
+    align-items: center;
     text-wrap: nowrap;
     width: 100%;
     height: auto;
@@ -29,8 +30,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 3.5rem;
-    width: 3.5rem;
+    height: 3.5%;
+    width: 3.5%;
     padding-left: 1rem;
     font-size: 1.5rem;
     cursor: pointer;
@@ -46,8 +47,13 @@
 }
 
 #header-title {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+
     h1 {
-        padding: 0.3rem 1.1rem;
+        padding: 0.3rem 1.1rem 0.3rem 0;
 
         span {
             color: transparent;
@@ -55,4 +61,31 @@
             -webkit-text-stroke-color: #d4d4d4;
         }
     }
+}
+
+#header-login {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    height: 100%;
+    width: 37.5%;
+
+    div {
+        display: flex;
+        align-items: center;
+        padding-right: 1rem;
+        
+        a {
+            text-decoration: none;
+        }
+
+        h2 {
+            border-radius: 7.5px;
+            color: #d4d4d4;
+            background: linear-gradient(120deg, #00a9ff, #ff3ee5);
+            border: 0.13rem solid #d4d4d4;
+            padding: 0.1rem 0.4rem 0 0.4rem;
+        }
+    }
+    
 }

@@ -6,6 +6,7 @@ import './App.css'
 import Header from './components/Header/Header';
 import Dropdown from './components/Dropdown/Dropdown';
 import Productivity from './Productivity/Productivity';
+import Login from './Login/Login';
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
           <Routes>
             <Route path="/home" element={<div></div>} />
             <Route path="/productivity" element={<Productivity />} />
+            <Route path="/login" element={<Login />} />
           </Routes>
         </BrowserRouter>
       </div>
